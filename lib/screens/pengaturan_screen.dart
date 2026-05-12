@@ -199,7 +199,7 @@ class _PengaturanScreenState
                         },
                       ),
                       filled: true,
-                      fillColor: const Color.fromARGB(255, 238, 218, 251),
+                      fillColor: const Color.fromARGB(255, 240, 234, 244),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(18),
                         borderSide: BorderSide.none,
@@ -233,7 +233,7 @@ class _PengaturanScreenState
                         },
                       ),
                       filled: true,
-                      fillColor: Colors.green.shade50,
+                      fillColor: const Color.fromARGB(255, 240, 234, 244),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(18),
                         borderSide: BorderSide.none,
@@ -251,7 +251,12 @@ class _PengaturanScreenState
                       style: ElevatedButton.styleFrom(
                         backgroundColor: _primaryColor,
                       ),
-                      child: const Text('SIMPAN PASSWORD'),
+                      child: const Text(
+                        'SIMPAN PASSWORD',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
                     ),
                   ),
                 ],

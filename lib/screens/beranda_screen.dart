@@ -19,7 +19,7 @@ class BerandaScreen extends StatefulWidget {
 
 class _BerandaScreenState extends State<BerandaScreen> {
 
-  // 🎨 UNGU PASTEL SOFT
+
   static const _primaryColor = Color(0xFFB9A7FF);
   static const _backgroundColor = Color(0xFFF7F5FF);
 
